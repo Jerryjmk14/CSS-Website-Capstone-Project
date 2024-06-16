@@ -214,6 +214,28 @@ button.learnmore {
   }
 }
 
+footer.footsy {
+  background: #666;
+  padding-left: 10%;
+}
+
+footer.footsy h1 {
+  color: #fff;
+  font-size: 35px;
+}
+
+footer.footsy ul {
+  list-style: none;
+  text-align: left;
+  padding: 0;
+}
+
+footer.footsy ul li {
+  color: #fff;
+  font-size: 22px;
+  line-height: 1.5;
+}
+
 /*############### Mobile ###################*/
 @media screen and (max-width: 780px) {
   ul.topnav li:not(:nth-child(1)) {
@@ -255,6 +277,11 @@ button.learnmore {
   .col-4 {
     width: 100%;
     margin: 0;
+  }
+
+  div.mobile-stack {
+    width: 50%;
+    display: block;
   }
 
   div.leftside-col,
