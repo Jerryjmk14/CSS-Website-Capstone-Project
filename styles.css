@@ -141,7 +141,7 @@ ul.topnav li.dropdownIcon {
 }
 
 div.rightside-col {
-  margin-left: 15%;
+  margin-left: 14%;
 }
 
 h1.large {
@@ -165,7 +165,7 @@ input[type="text"] {
 
 h1.section2-large {
   text-align: center;
-  font-size: 56px;
+  font-size: 50px;
   margin: 0;
   margin-bottom: 4rem;
 }
@@ -175,23 +175,37 @@ h1.section2-large {
   height: 100px;
 }
 
-.box {
+div.box {
   text-align: center;
-  padding: 20px;
-  margin: 15px;
-  border: 2px solid lightgray;
+  padding: 36px 24px 40px 24px;
+  margin: 24px;
+  border-radius: 7px;
+  background-color: #fff;
+  /*    border: 2px solid lightgray;*/
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 2px 0 rgba(0, 0, 0, 0.1);
 }
 
-.button-row {
+div.slopeIcon img {
+  display: block;
+  margin: auto;
+  box-shadow: -2px /*Horizontal*/ -2px /*Vertical*/ 20px /*Blur*/ 2px /*Spread*/
+      rgba(0 /*SH*/, 0 /*BG*/, 0 /*BX*/, 0.15 /*OP*/),
+    2px 2px 17px 2px rgba(0, 0, 0, 1);
+}
+
+.button-row .col-12 {
   text-align: center;
 }
 
 button.learnmore {
   color: white;
-  background-color: #076dff;
-  padding: 8px 30px;
-  font-size: 20px;
+  background-color: #0069ff;
+  padding: 16px 60px;
+  font-size: 32px;
   font-weight: 700;
+  /*    display: block;*/
+  margin: 5px;
+  text-align: center;
   border: none;
   &:hover {
     background-color: #0080ff;
@@ -231,7 +245,14 @@ button.learnmore {
     text-align: left;
   }
 
-  .col-6 {
+  article p {
+    font-size: 25px;
+  }
+
+  .col-7,
+  .col-6,
+  .col-5,
+  .col-4 {
     width: 100%;
     margin: 0;
   }
@@ -243,8 +264,8 @@ button.learnmore {
   }
 
   input[type="text"] {
-    width: 350px;
-    min-width: 70px;
+    width: auto;
+    min-width: 30px;
   }
 
   .video-container iframe {
@@ -257,8 +278,21 @@ button.learnmore {
     display: block;
   }
 
-  .col-4 {
-    width: 100%;
-    margin: 0;
+  h1.section2-large {
+    font-size: 40px;
+  }
+
+  button.learnmore {
+    padding: 8px 30px;
+    font-size: 25px;
+    font-weight: 600;
+  }
+
+  div.slopeIcon {
+    margin: 10px;
+  }
+
+  div.slopeIcon img {
+    width: 98%;
   }
 }
